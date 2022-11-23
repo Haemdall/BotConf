@@ -1,7 +1,7 @@
 # BotConf
 One-time telegram bot for the conference. No further support is being provided.
 ____
-To work, you need pyTelegramBotAPI and telebot.
+To work, you need pyTelegramBotAPI and telebot on venv.
 Backend configuration is not included in the repository.
 To avoid timeout problems, rewrite the code on the webhook.
 ____
