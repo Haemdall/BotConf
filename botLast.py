@@ -1,3 +1,10 @@
+"""
+Бот для проведения конференции. 
+Пересылает вопросы на канал спикерам.
+Отправляет гостям ссылку на канал с поддержкой.
+Может отправлять ссылку на сайт.
+Функционал с вызовом помошника к месту закоментирован.
+"""
 import telebot
 from telebot import types
 
@@ -21,8 +28,8 @@ btnQuestion = types.KeyboardButton("📢 Задать вопрос спикер�
 btnOrder = types.KeyboardButton("🆘 Обратиться за помощью")
 btnGoIt = types.KeyboardButton("🦾 Стать Айтишником")
 btnCancel = types.KeyboardButton("🚫 Отменить")
-btnGroup = types.InlineKeyboardButton(text="Чат с поддержкой", url="https://t.me/+uhdq9BVb9aowZjdi")
-btnIt = types.InlineKeyboardButton(text="Наш сайт", url="https://clck.ru/32iXzF")
+btnGroup = types.InlineKeyboardButton(text="Чат с поддержкой", url="https://")      # Указать спригласительную ссылку на канал telegram
+btnIt = types.InlineKeyboardButton(text="Наш сайт", url="https://")                 # Указать сайт
 
 # Добавление кнопок на клавиатуры
 keyboardStart.row(btnQuestion)
