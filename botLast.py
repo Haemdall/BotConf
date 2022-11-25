@@ -4,7 +4,7 @@ from telebot import types
 token = ""                      # Токен бота
 bot = telebot.TeleBot(token)
 volunteersChannel = ""          # Канал волонтеров
-speakerChannel = "-828733381"   # Канал канал спикеров
+speakerChannel = ""             # Канал канал спикеров
 messVolunteers = ""             # Сообщение волонтерам
 messSpeaker = ""                # Сообщение спикерам
 rowNum = ""                     # Номер ряда
